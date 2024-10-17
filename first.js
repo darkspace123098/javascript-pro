@@ -43,5 +43,25 @@
 // console.log(url.split(op));
 
 
-let balance = new Number(475)
-console.log(balance);
+// let balance = new Number(4750010)
+// console.log(balance);
+// let strbalance = balance.toString();
+// let floatbalance = balance.toFixed(4)
+// console.log(strbalance);
+// console.log(floatbalance);
+// console.log(balance.toLocaleString('en-IN'));
+// console.log(balance===strbalance);
+
+// console.log(Math);
+// console.log(Math.abs(+67-7));
+// console.log(Math.round(4.5));
+// console.log(Math.floor(4.9));
+// console.log(Math.ceil(4.1));
+// console.log(Math.min(5,2,3,1,8,0.6,-1,-9));
+const max = 20
+const min = 2
+console.log(Math.round(Math.random()*(max-min)));
+
+
+
+
