@@ -58,9 +58,27 @@
 // console.log(Math.floor(4.9));
 // console.log(Math.ceil(4.1));
 // console.log(Math.min(5,2,3,1,8,0.6,-1,-9));
-const max = 20
-const min = 2
-console.log(Math.round(Math.random()*(max-min)));
+// const max = 20
+// const min = 2
+// console.log(Math.round(Math.random()*(max-min)));
+
+// let mydate = new Date();
+// console.log(mydate);
+// console.log(mydate.toString());
+// console.log(mydate.toTimeString());
+
+// let createDate = new Date(2024,10,19)
+// console.log(createDate.toDateString());
+// console.log(createDate.toString());
+// let createToday = new Date(2024,9,19,8,0)
+// console.log(createToday.toTimeString());
+
+// let myDate = new Date("10-19-2024")
+// console.log(myDate.toLocaleString());
+// console.log(myDate.toString());
+// console.log(myDate.toJSON());
+
+
 
 
 
