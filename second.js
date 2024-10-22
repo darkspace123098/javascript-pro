@@ -67,16 +67,16 @@
 // console.log(Array.from(obj.name));
 
 // Object - The Nitro
-const jsuser = {
-    name: "joseph",
-    age: 18,
-    married: false
-}
-console.log(jsuser.name);
-jsuser.add = "karnataka"
-Object.freeze(jsuser)
-jsuser.email = "userjos@gmail.com"
-console.log(jsuser);
+// const jsuser = {
+//     name: "joseph",
+//     age: 18,
+//     married: false
+// }
+// console.log(jsuser.name);
+// jsuser.add = "karnataka"
+// Object.freeze(jsuser)
+// jsuser.email = "userjos@gmail.com"
+// console.log(jsuser);
 
 
 
