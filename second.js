@@ -67,16 +67,51 @@
 // console.log(Array.from(obj.name));
 
 // Object - The Nitro
-// const jsuser = {
-//     name: "joseph",
-//     age: 18,
-//     married: false
-// }
+const jsuser = {
+    name: "joseph",
+    age: 18,
+    married: false
+}
 // console.log(jsuser.name);
 // jsuser.add = "karnataka"
 // Object.freeze(jsuser)
 // jsuser.email = "userjos@gmail.com"
 // console.log(jsuser);
+// Add funtion into an object
+// jsuser.greeting = function () {
+//     console.log("Hellow Js User");
+    
+// }
+// console.log(jsuser.greeting());
+
+// Symbol
+// const mysym = Symbol()
+// const obj1 = {
+//     [mysym] : "mykey1"
+// }
+// obj1.mysym = "changed"
+// console.log(obj1[mysym]);
+
+// Constructor method to create object
+// const tinder_user = new Object()
+// tinder_user.name = "Irshad ali"
+// tinder_user.age = "19"
+// console.log(tinder_user);
+// For geting key of objct
+// console.log(Object.keys(jsuser));
+
+
+// Assigning two or more object values
+// const obj1 = {1:"abc",2:"def",3:"ghi"}
+// const obj2 = {4:"klm",5:"nop"}
+// const obj3 = {6:"qrs",7:"tuv"}
+// const ass = Object.assign(obj1,obj2)
+// const multi_ass = Object.assign({},obj1,obj2,obj3)
+// const sprd = {...obj1,...obj2}
+// console.log(ass);
+// console.log(sprd);
+
+
 
 
 
