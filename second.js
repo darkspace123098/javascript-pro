@@ -97,8 +97,13 @@ const jsuser = {
 // tinder_user.name = "Irshad ali"
 // tinder_user.age = "19"
 // console.log(tinder_user);
-// For geting key of objct
+
+// For geting key of object
 // console.log(Object.keys(jsuser));
+// console.log(Object.entries(jsuser));
+// console.log(jsuser.hasOwnProperty('age'))
+
+
 
 
 // Assigning two or more object values
@@ -110,6 +115,19 @@ const jsuser = {
 // const sprd = {...obj1,...obj2}
 // console.log(ass);
 // console.log(sprd);
+
+// Object De-structure
+// const course = {
+//     course_name : "Java - spring",
+//     price : 2999,
+//     course_Instructor : "Hithesh"
+// }
+// const {course_Instructor:Teacher} = course
+// const {price:rate} = course
+// console.log(course);
+// console.log(Teacher);
+// console.log(rate);
+
 
 
 
