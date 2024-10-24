@@ -149,5 +149,22 @@ const jsuser = {
 // }
 // let res = addS(5,6);
 // console.log(res);
+ 
+// function login(username) {
+//     return `${username} Just logged In`
+// }
+// console.log(login("Irshad"));
 
+// Adding multiple value to a single parameter
+// function cart(...num) {
+//     return num
+// }
+// let total = cart(123,23,56)
+// console.log(total);
+// console.log(typeof total);
 
+// real time exception
+function cartPrice(val1,val2,...num) {
+    return num
+}
+console.log(cartPrice(56,678,788,600,900));
