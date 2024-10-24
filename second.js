@@ -128,9 +128,26 @@ const jsuser = {
 // console.log(Teacher);
 // console.log(rate);
 
+// Functions 
+// function add(num1,num2)
+// {
+//     console.log(num1+num2);
+    
+// }
+// const result = add(5,2) 
+// add(5,8)
 
+// function addTwo(num1,num2) {
+//     let result = num1+num2
+//     return result;
+// }
+// let result = addTwo(5,10)
+// console.log(result);
 
-
-
+// function addS(n1,n2) {
+//     return n1 + n2;
+// }
+// let res = addS(5,6);
+// console.log(res);
 
 
