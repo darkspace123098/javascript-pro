@@ -164,7 +164,7 @@ const jsuser = {
 // console.log(typeof total);
 
 // real time exception
-function cartPrice(val1,val2,...num) {
-    return num
-}
-console.log(cartPrice(56,678,788,600,900));
+// function cartPrice(val1,val2,...num) {
+//     return num
+// }
+// console.log(cartPrice(56,678,788,600,900));
