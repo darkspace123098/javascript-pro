@@ -215,3 +215,44 @@ console.log(returnArr([56,67,90,69]));
 // one()
 
 
+// console.log(addone(9));
+// function addone(num) {
+//     return num+1    
+// }
+
+// console.log(addtwo(9));
+// const addtwo = function(num){
+//     return num+2
+// }
+// console.log(addtwo(9));
+
+// This Keyword
+// const user = {
+//     name:"hithesh",
+//     age:19,
+//     greet : function(){
+//         console.log(`welcome ${this.name}, to the black website`);
+//         console.log(this);
+        
+//     }
+// }
+// user.greet()
+// user.name = "irshad"
+// user.greet()
+
+// function chai() {
+//     let type = "light chai"
+//     console.log(this.type);
+    
+// }
+// chai()
+
+// Arrow Function
+// const chai = () =>{
+//     let user = "jacob"
+//     console.log(user);
+    
+// }
+// chai()
+// console.log(typeof chai);
+
