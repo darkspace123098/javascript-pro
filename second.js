@@ -168,3 +168,50 @@ const jsuser = {
 //     return num
 // }
 // console.log(cartPrice(56,678,788,600,900));
+
+// Passing Object In a Function
+// const user1  = {
+//     username : "gopal",
+//     price : "25000"
+// }
+
+// const user2  = {
+//     username : "hithesh",
+//     price : "85000"
+// }
+
+// function handleObject(anyObject){
+//     console.log(`username is ${anyObject.username} and price is $${anyObject.price}`);
+    
+// }
+// handleObject(user1)
+// handleObject(user2)
+
+/* Passing Array In a Function
+
+const arr = [24,89,90,58]
+
+function returnArr(getArr) {
+    return getArr[3]
+}
+console.log(returnArr(arr));
+console.log(returnArr([56,67,90,69]));
+
+*/
+
+// Scope of a variable
+// one()
+// function one() {
+//     let user = "irshad"
+
+//     function two() {
+//         let web = "firecode"
+//         console.log(user); 
+//     }
+//     two()
+    // console.log(web);
+    
+// }
+// one()
+
+
