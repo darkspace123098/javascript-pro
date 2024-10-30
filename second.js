@@ -256,3 +256,31 @@ console.log(returnArr([56,67,90,69]));
 // chai()
 // console.log(typeof chai);
 
+// const addTwo = (num1,num2) => {
+//     return num1 + num2
+// }
+// console.log(addTwo(5,8));
+
+// const addTwo = (num1,num2) => (num1+num2)
+// console.log(addTwo(5,9));
+
+// const app = (name) => {
+//     console.log(name);
+    
+// }
+// app("kohli")
+
+// IIFE Immedietly invoked function expression
+
+/// Named IIFE
+// (function chai(){
+//     console.log(`automated output without calling`);
+    
+// })();
+
+/// unamed IIFE
+// ((name)=>{
+//     console.log(`welcome : ${name}`);
+    
+// })("irshad");
+
