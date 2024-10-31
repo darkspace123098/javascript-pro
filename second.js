@@ -346,3 +346,10 @@ console.log(returnArr([56,67,90,69]));
     
 // }
 
+let rulers = ["ronaldo","messi","neymar","benzama","mbappe"]
+for(let key in rulers)
+{
+    console.log(key);
+    console.log(rulers[key]);
+    
+}
