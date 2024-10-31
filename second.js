@@ -346,10 +346,47 @@ console.log(returnArr([56,67,90,69]));
     
 // }
 
-let rulers = ["ronaldo","messi","neymar","benzama","mbappe"]
-for(let key in rulers)
-{
-    console.log(key);
-    console.log(rulers[key]);
+// let rulers = ["ronaldo","messi","neymar","benzama","mbappe"]
+// for(let key in rulers)
+// {
+//     console.log(key);
+//     console.log(rulers[key]);
     
-}
+// }
+
+// For Each method loop
+// let arr = ["black","green","red","blue","yellow"]
+
+// arr.forEach((item,index,itemall)=>{
+//     console.log(itemall);
+    
+// })
+// arr.forEach(function(val){
+//     console.log(val);
+    
+// })
+// arr.forEach((item) => {
+//     console.log(item);
+    
+// })
+
+const mycoding = [
+    {
+        lang : "javascript",
+        ext : "js"
+    },
+    {
+        lang : "python",
+        ext : "py"
+    },
+    {
+        lang : "c sharp",
+        ext : "cs"
+    }
+]
+mycoding.forEach((item) =>{
+    console.log(item.lang);
+    console.log(item.ext);
+    console.log(item);
+    
+})
