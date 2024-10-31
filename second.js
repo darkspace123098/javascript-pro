@@ -284,3 +284,13 @@ console.log(returnArr([56,67,90,69]));
     
 // })("irshad");
 
+// check Truthy and falsy value
+// let app = NaN
+// if(app)
+// {
+//     console.log("Truth");
+// }
+// else{
+//     console.log("falsy");
+// }
+
