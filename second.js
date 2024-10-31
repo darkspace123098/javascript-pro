@@ -294,3 +294,55 @@ console.log(returnArr([56,67,90,69]));
 //     console.log("falsy");
 // }
 
+// Nullish coalescing operator(??)
+// let app;
+// app = undefined ?? null ?? 10 ?? 7;
+// console.log(app);
+ 
+// Ternary Operator
+
+// let age = 18
+// age>=18 ? console.log("valid") : console.log("unvalid");
+ 
+// For Of loop
+// const arr = [4,6,"uio",9]
+// for(const num of arr)
+// {
+//     console.log(num);
+    
+// }
+
+// let greetings = "Hello Developer"
+// for(wel of greetings)
+// {
+//     console.log(wel);
+    
+// }
+
+///  map using for of loop
+// const map = new Map()
+// map.set(7,"ronaldo")
+// map.set(11,"messi")
+// //console.log(map);
+
+// for(const [k,v] of map)
+// {
+//     console.log(`${k} : ${v}`);
+    
+// }
+
+// For In loop
+// const myObj = {
+//      js : "javascript",
+//      cpp : "c++",
+//      rb : "ruby",
+//      py : "python"
+// }
+// for(key in myObj)
+// {
+//     // console.log(myObj[key] , key);
+//     console.log(`${key} shortcut is for ${myObj[key]}`);
+    
+    
+// }
+
