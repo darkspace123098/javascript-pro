@@ -9,9 +9,12 @@
     <h2>Programming language Finder</h2>
     <input type="text" name="LangName" id="lname" placeholder="extention">
     <button onclick="myFun()">Search</button>
+    <h3 id="mypar"></h3>
 </body>
 <script>
-let extra = document.getElementById("lname");
+    function myFun() {
+let extra = document.getElementById("lname").value;
+let par = document.getElementById("mypar")
 const mycoding = [
     {
         lang : "javascript",
@@ -26,15 +29,14 @@ const mycoding = [
         ext : "cs"
     }
 ]
-function myFun() {
-    
 
 mycoding.forEach((item) =>{
     if (item.ext == extra) {
         console.log(item.lang);
         console.log(item);
+        par.innerHTML = item.lang
+
     }
-    
        
 })
 }

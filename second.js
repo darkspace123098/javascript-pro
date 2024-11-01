@@ -384,9 +384,10 @@ const mycoding = [
         ext : "cs"
     }
 ]
-mycoding.forEach((item) =>{
-    console.log(item.lang);
-    console.log(item.ext);
-    console.log(item);
+// mycoding.forEach((item) =>{
+//     console.log(item.lang);
+    // console.log(item.ext);
+    // console.log(item);
     
-})
+// })
+
