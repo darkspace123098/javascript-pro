@@ -370,24 +370,55 @@ console.log(returnArr([56,67,90,69]));
     
 // })
 
-const mycoding = [
-    {
-        lang : "javascript",
-        ext : "js"
-    },
-    {
-        lang : "python",
-        ext : "py"
-    },
-    {
-        lang : "c sharp",
-        ext : "cs"
-    }
-]
+// const mycoding = [
+//     {
+//         lang : "javascript",
+//         ext : "js"
+//     },
+//     {
+//         lang : "python",
+//         ext : "py"
+//     },
+//     {
+//         lang : "c sharp",
+//         ext : "cs"
+//     }
+// ]
 // mycoding.forEach((item) =>{
 //     console.log(item.lang);
     // console.log(item.ext);
     // console.log(item);
     
 // })
+// function printer(item,iter,all) {
+//     console.log(item.ext);
+//     console.log(all.ext);
+    
+    
+// }
+// mycoding.forEach(printer)
+
+// While loop
+// let myarry = ["flash","batman","superman"]
+// let arr = 0;
+// while (arr<myarry.length) {
+//     console.log(myarry[arr]);
+//     // arr++;
+//     arr = arr + 1
+    
+// }
+
+// For loop
+// let car = ["bmw","benz","ferrari","porche"]
+// for (let i = 0; i < car.length; i++) {
+//     const element = car[i];
+//     console.log(element);
+// }
+
+//                FILTER MAP REDUSE
+
+
+
+
+
 
