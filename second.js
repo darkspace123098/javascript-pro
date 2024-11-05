@@ -417,6 +417,25 @@ console.log(returnArr([56,67,90,69]));
 
 //                FILTER MAP REDUSE
 
+// filter
+// const num = [7,8,0,9,3,4,6]
+// const even = num.filter(function(n){
+//       return n%2==0
+// });
+// const even = num.filter((dnum) => (dnum%2==0 && dnum!=0))
+// console.log(even);
+
+const fruits = ["apple", "banana", "grapes", "mango", "orange"];
+
+// function filterItems(arr, query) {
+//   return arr.filter((el) => el.toLowerCase().includes(query.toLowerCase()));
+// }
+
+// console.log(filterItems(fruits, "ap")); // ['apple', 'grapes']
+// console.log(filterItems(fruits, "an")); // ['banana', 'mango', 'orange']
+
+
+
 
 
 
