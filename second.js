@@ -330,6 +330,16 @@ console.log(returnArr([56,67,90,69]));
 //     console.log(`${k} : ${v}`);
     
 // }
+const contacts = new Map();
+contacts.set("Jessie", { phone: "213-555-1234", address: "123 N 1st Ave" });
+contacts.has("Jessie"); // true
+contacts.get("Hilary"); // undefined
+contacts.set("Hilary", { phone: "617-555-4321", address: "321 S 2nd St" });
+contacts.get("Jessie"); // {phone: "213-555-1234", address: "123 N 1st Ave"}
+// contacts.delete("Raymond"); // false
+// contacts.delete("Jessie"); // true
+console.log(contacts.size); // 1
+console.log(contacts.get("Jessie"))
 
 // For In loop
 // const myObj = {
@@ -434,8 +444,34 @@ const fruits = ["apple", "banana", "grapes", "mango", "orange"];
 // console.log(filterItems(fruits, "ap")); // ['apple', 'grapes']
 // console.log(filterItems(fruits, "an")); // ['banana', 'mango', 'orange']
 
+// const nam = [
+//     {
+//         name: "fish",
+//         live: "sea"
+//     },
+//     {
+//         name: "cat",
+//         live: "land"
+//     },
+//     {
+//         name: "goat",
+//         live: "land"
+//     }
+// ]
 
+// const fltr = nam.filter((js) => js.live=="land")
+// console.log(fltr);
 
+// MAP - for changing the values
+// const myNum = [1,5,8,4,-2]
+// const newNum = myNum.map((num)=> {
+//     return num*10
+// })
+// const newNum2  = myNum.map((num)=> num - 1)
+// console.log(newNum);
+// console.log(newNum2);
+
+// REDUSE
 
 
 
