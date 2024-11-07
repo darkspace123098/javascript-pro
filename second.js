@@ -330,16 +330,16 @@ console.log(returnArr([56,67,90,69]));
 //     console.log(`${k} : ${v}`);
     
 // }
-const contacts = new Map();
-contacts.set("Jessie", { phone: "213-555-1234", address: "123 N 1st Ave" });
-contacts.has("Jessie"); // true
-contacts.get("Hilary"); // undefined
-contacts.set("Hilary", { phone: "617-555-4321", address: "321 S 2nd St" });
-contacts.get("Jessie"); // {phone: "213-555-1234", address: "123 N 1st Ave"}
-// contacts.delete("Raymond"); // false
-// contacts.delete("Jessie"); // true
-console.log(contacts.size); // 1
-console.log(contacts.get("Jessie"))
+// const contacts = new Map();
+// contacts.set("Jessie", { phone: "213-555-1234", address: "123 N 1st Ave" });
+// contacts.has("Jessie"); // true
+// contacts.get("Hilary"); // undefined
+// contacts.set("Hilary", { phone: "617-555-4321", address: "321 S 2nd St" });
+// contacts.get("Jessie"); // {phone: "213-555-1234", address: "123 N 1st Ave"}
+// // contacts.delete("Raymond"); // false
+// // contacts.delete("Jessie"); // true
+// console.log(contacts.size); // 1
+// console.log(contacts.get("Jessie"))
 
 // For In loop
 // const myObj = {
@@ -463,15 +463,28 @@ const fruits = ["apple", "banana", "grapes", "mango", "orange"];
 // console.log(fltr);
 
 // MAP - for changing the values
-// const myNum = [1,5,8,4,-2]
+const myNum = [1,5,8,4,-2]
 // const newNum = myNum.map((num)=> {
 //     return num*10
 // })
 // const newNum2  = myNum.map((num)=> num - 1)
 // console.log(newNum);
 // console.log(newNum2);
+// Chaining
+// const multi = myNum.map((num) => num*10).map((num) => num+1).filter((num) => num>15)
+// console.log(multi);
+
 
 // REDUSE
+// const myArr = [1,2,3,4]
+// const mytotal = myArr.reduce(function(acc,currval){
+//     console.log(`acc : ${acc} and CurrentValue : ${currval}`)
+//     return acc + currval
+//       },0)
+
+// const mytotal = myArr.reduce((acc,currval) => (acc + currval),0)
+
+// console.log(mytotal);
 
 
 
