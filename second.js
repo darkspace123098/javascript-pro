@@ -486,7 +486,23 @@ const myNum = [1,5,8,4,-2]
 
 // console.log(mytotal);
 
+let shopping = [
+    {
+        item: "javascript",
+        price: 5999
+    },
+    {
+        item: "Ethical Hacking",
+        price: 9999
+    },
+    {
+        item: "nodejs",
+        price: 4999
+    }
+]
 
+let ptp = shopping.reduce((acc,total) => acc + total.price,0)
+console.log(ptp);
 
 
 
