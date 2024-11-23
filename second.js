@@ -31,6 +31,7 @@
 // const myarr = [1,2,3,4,5]
 // const spli = myarr.splice(0,5)      //  it will effect the original array
 // const sli = myarr.slice(0,4)
+// console.log(sli);
 // console.log(spli);
 // console.log(myarr);
 
@@ -91,6 +92,8 @@ const jsuser = {
 // }
 // obj1.mysym = "changed"
 // console.log(obj1[mysym]);
+// console.log(typeof [mysym]);
+
 
 // Constructor method to create object
 // const tinder_user = new Object()
@@ -101,6 +104,7 @@ const jsuser = {
 // For geting key of object
 // console.log(Object.keys(jsuser));
 // console.log(Object.entries(jsuser));
+// console.log(Object.values(jsuser));
 // console.log(jsuser.hasOwnProperty('age'))
 
 
@@ -114,6 +118,7 @@ const jsuser = {
 // const multi_ass = Object.assign({},obj1,obj2,obj3)
 // const sprd = {...obj1,...obj2}
 // console.log(ass);
+// console.log(multi_ass);
 // console.log(sprd);
 
 // Object De-structure
@@ -486,23 +491,23 @@ const myNum = [1,5,8,4,-2]
 
 // console.log(mytotal);
 
-let shopping = [
-    {
-        item: "javascript",
-        price: 5999
-    },
-    {
-        item: "Ethical Hacking",
-        price: 9999
-    },
-    {
-        item: "nodejs",
-        price: 4999
-    }
-]
+// let shopping = [
+//     {
+//         item: "javascript",
+//         price: 5999
+//     },
+//     {
+//         item: "Ethical Hacking",
+//         price: 9999
+//     },
+//     {
+//         item: "nodejs",
+//         price: 4999
+//     }
+// ]
 
-let ptp = shopping.reduce((acc,total) => acc + total.price,0)
-console.log(ptp);
+// let ptp = shopping.reduce((acc,total) => acc + total.price,0)
+// console.log(ptp);
 
 
 
