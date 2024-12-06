@@ -168,7 +168,7 @@ const jsuser = {
 // console.log(total);
 // console.log(typeof total);
 
-// real time exception
+// real time exception  =   when we perform arithmetic operation using restParameter the restParameter will treat number as string
 // function cartPrice(val1,val2,...num) {
 //     return num
 // }
@@ -278,10 +278,11 @@ console.log(returnArr([56,67,90,69]));
 // IIFE Immedietly invoked function expression
 
 /// Named IIFE
-// (function chai(){
-//     console.log(`automated output without calling`);
+
+(function chai(){
+    console.log(`automated output without calling`);
     
-// })();
+})();
 
 /// unamed IIFE
 // ((name)=>{
