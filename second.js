@@ -24,13 +24,14 @@
 // const arr1 = [58,25,61]
 // const arr2 = arr1.join();
 // console.log(arr2);
+// console.log(arr2.slice(0,5));
 // console.log("a",arr1);
 // console.log(typeof arr2);
 
-// Slice and splice
+// Slice and Splice
 // const myarr = [1,2,3,4,5]
-// const spli = myarr.splice(0,5)      //  it will effect the original array
-// const sli = myarr.slice(0,4)
+// const spli = myarr.splice(0,4)      //  it will effect the original array
+// const sli = myarr.slice(2,4)
 // console.log(sli);
 // console.log(spli);
 // console.log(myarr);
@@ -65,6 +66,9 @@
 // const obj = {
 //     name : "joseph"
 // }
+// let strarr = Array.from(obj.name)
+// console.log(strarr[0]);
+
 // console.log(Array.from(obj.name));
 
 // Object - The Nitro
@@ -122,16 +126,16 @@ const jsuser = {
 // console.log(sprd);
 
 // Object De-structure
-// const course = {
-//     course_name : "Java - spring",
-//     price : 2999,
-//     course_Instructor : "Hithesh"
-// }
-// const {course_Instructor:Teacher} = course
-// const {price:rate} = course
-// console.log(course);
-// console.log(Teacher);
-// console.log(rate);
+const course = {
+    course_name : "Java - spring",
+    price : 2999,
+    course_Instructor : "Hithesh"
+}
+const {course_Instructor:Teacher} = course
+const {price:rate} = course
+console.log(course);
+console.log(Teacher);
+console.log(rate);
 
 // Functions 
 // function add(num1,num2)
@@ -279,10 +283,10 @@ console.log(returnArr([56,67,90,69]));
 
 /// Named IIFE
 
-(function chai(){
-    console.log(`automated output without calling`);
+// (function chai(){
+//     console.log(`automated output without calling`);
     
-})();
+// })();
 
 /// unamed IIFE
 // ((name)=>{
@@ -509,6 +513,3 @@ const myNum = [1,5,8,4,-2]
 
 // let ptp = shopping.reduce((acc,total) => acc + total.price,0)
 // console.log(ptp);
-
-
-

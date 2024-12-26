@@ -1,5 +1,5 @@
 //console.log("hello dark");
-//console.log(null>=0);
+// console.log(null<=0);
 
 // let score = ""
 // let conv = Boolean(score)
@@ -32,14 +32,14 @@
 // console.log(userOne.number[2]);
 
 // let gameName = new String();
-// gameName = "  irshad   "
+// gameName = "   irshad   "
 
 // console.log(gameName.substring(2,4));
 // console.log(gameName.trim());
 
 // const url = "https://ssp.postmatric.karnataka.gov.in/2425_sa/signin.aspx"
 // console.log(url.replaceAll('.','#'));
-// let op = "a"
+// let op = "."
 // console.log(url.split(op));
 
 
