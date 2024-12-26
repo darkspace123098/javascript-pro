@@ -126,16 +126,16 @@ const jsuser = {
 // console.log(sprd);
 
 // Object De-structure
-const course = {
-    course_name : "Java - spring",
-    price : 2999,
-    course_Instructor : "Hithesh"
-}
-const {course_Instructor:Teacher} = course
-const {price:rate} = course
-console.log(course);
-console.log(Teacher);
-console.log(rate);
+// const course = {
+//     course_name : "Java - spring",
+//     price : 2999,
+//     course_Instructor : "Hithesh"
+// }
+// const {course_Instructor:Teacher} = course
+// const {price:rate} = course
+// console.log(course);
+// console.log(Teacher);
+// console.log(rate);
 
 // Functions 
 // function add(num1,num2)
@@ -174,7 +174,7 @@ console.log(rate);
 
 // real time exception  =   when we perform arithmetic operation using restParameter the restParameter will treat number as string
 // function cartPrice(val1,val2,...num) {
-//     return num
+//     return val1+num
 // }
 // console.log(cartPrice(56,678,788,600,900));
 
@@ -195,18 +195,31 @@ console.log(rate);
 // }
 // handleObject(user1)
 // handleObject(user2)
+// handleObject({
+//     username : "yousef",
+//     price : "85000"
+// })
 
-/* Passing Array In a Function
+/* Passing Array In a Function  */
 
-const arr = [24,89,90,58]
+// const arr = [24,89,90,58]
 
-function returnArr(getArr) {
-    return getArr[3]
-}
-console.log(returnArr(arr));
-console.log(returnArr([56,67,90,69]));
+// function returnArr(getArr) {
+//     return getArr[3]
+// }
+// console.log(returnArr(arr));
+// console.log(returnArr([56,67,90,69]));
 
-*/
+//   part next
+// const arr = [24,89,90,58]
+// function returnArr(getArr) {
+//     for (let i = 0; i < getArr.length; i++) {
+        
+//         console.log(getArr[i]);
+//     }
+    
+// }
+// returnArr(arr)
 
 // Scope of a variable
 // one()
@@ -242,6 +255,7 @@ console.log(returnArr([56,67,90,69]));
 //     greet : function(){
 //         console.log(`welcome ${this.name}, to the black website`);
 //         console.log(this);
+//         console.log(typeof this);
         
 //     }
 // }
