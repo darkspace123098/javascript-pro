@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="head" class="myhead">hello buddy</h1>
+    <p id="para">Read the above</p>
+    <p id="para2">Read the below</p>
+    <input type="text" name="user" id="user">
+    <input type="password" name="pass" id="pass">
+
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul>
+
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+    </div>
+
+</body>
+<script>
+    // querySelector
+    console.log(document.querySelector("#head"));
+    console.log(document.querySelector('input[type="password"]'));
+    console.log(document.querySelector('p'));
+    
+    // querySelectorAll
+  const templist = document.querySelectorAll("li")
+
+  for (const item of templist) {
+    item.style.color = "red"
+  }
+  templist[2].style.color = "blue"
+
+  // using class name to select 
+//   let tempclasslist = document.getElementsByClassName("list-item")
+// let conArray =   Array.from(tempclasslist)
+//    conArray.forEach((item) => item.style.color = "orange") 
+    
+    
+</script>
+</html>
