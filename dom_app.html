@@ -7,6 +7,31 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <ul class="language">
+        <li>javascript</li>
+    </ul>
 </body>
+<script>
+    // CREATE
+    function addlanguage(langname)
+    {
+        let li = document.createElement("li")
+        li.innerHTML = langname
+        document.querySelector(".language").appendChild(li)
+    }
+    addlanguage("flutter")
+    addlanguage("ruby")
+
+    // EDIT
+    let secondlang = document.querySelector("li:nth-child(3)")
+    console.log(secondlang);
+    let newli = document.createElement("li")
+    newli.textContent = "mojo"
+    secondlang.replaceWith(newli)
+  // EDIT 2.0
+  const flang = document.querySelector("li:first-child")
+  flang.innerHTML = "python"
+  // REMOVE
+  flang.remove();
+</script>
 </html>

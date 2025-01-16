@@ -7,11 +7,23 @@
 </head>
 <body>
     <h2  id="mydate"></h2>
+    <input type="number" name="watt" id="ter">
+    <button onclick="cal()">CHECK</button>
 </body>
 <script>
     let today = document.getElementById("mydate")
     let myDate = new Date();
-
+    let ter = document.querySelector("#ter")
     today.innerHTML = `${myDate.toDateString()} AND SECONDS ${myDate.getSeconds()}` ;
+function cal() {
+    
+    function addpower(watt)
+    {
+        let ele = document.createElement("h2")
+        ele.innerHTML = watt>50 ? watt + " is powerfull" : watt +" is weak" 
+        document.body.appendChild(ele)
+    }
+    addpower(ter.value)
+}
 </script>
 </html>
