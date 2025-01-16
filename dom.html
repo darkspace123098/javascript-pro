@@ -26,9 +26,9 @@
 </body>
 <script>
     // querySelector
-    console.log(document.querySelector("#head"));
-    console.log(document.querySelector('input[type="password"]'));
-    console.log(document.querySelector('p'));
+    // console.log(document.querySelector("#head"));
+    // console.log(document.querySelector('input[type="password"]'));
+    // console.log(document.querySelector('p'));
     
     // querySelectorAll
   const templist = document.querySelectorAll("li")
@@ -43,6 +43,28 @@
 // let conArray =   Array.from(tempclasslist)
 //    conArray.forEach((item) => item.style.color = "orange") 
     
-    
+// const parent = document.querySelector(".parent");
+// console.log(parent);
+// console.log(parent.children);
+// console.log(parent.children[1].innerHTML);
+
+// for (const item of parent.children) {
+//     console.log(item.innerHTML);
+     
+// }
+// console.log(parent.firstElementChild);
+// console.log(parent.lastElementChild);
+
+// Real Work
+const div = document.createElement("h2")
+div.innerText = "generated"
+div.style.backgroundColor = "aqua"
+const desg = div.style;
+desg.padding = "12px"
+desg.color = "red"
+div.setAttribute("title","dom magic")
+div.setAttribute("class","genText")
+document.body.append(div)
+
 </script>
 </html>
