@@ -90,13 +90,14 @@ const jsuser = {
 // console.log(jsuser.greeting());
 
 // Symbol
-// const mysym = Symbol()
+// let mysym = Symbol("key1")
+
 // const obj1 = {
 //     [mysym] : "mykey1"
 // }
-// obj1.mysym = "changed"
+// console.log(obj1);
 // console.log(obj1[mysym]);
-// console.log(typeof [mysym]);
+// console.log(typeof mysym);
 
 
 // Constructor method to create object
@@ -300,9 +301,12 @@ const jsuser = {
 // (function chai(){
 //     console.log(`automated output without calling`);
     
-// })();
+// })(); 
+
+// SEWMI COLOUN IS MANDATORY 
 
 /// unamed IIFE
+// ;
 // ((name)=>{
 //     console.log(`welcome : ${name}`);
     
@@ -347,7 +351,7 @@ const jsuser = {
 // const map = new Map()
 // map.set(7,"ronaldo")
 // map.set(11,"messi")
-// //console.log(map);
+// console.log(map);
 
 // for(const [k,v] of map)
 // {
@@ -399,8 +403,8 @@ const jsuser = {
 //     console.log(val);
     
 // })
-// arr.forEach((item) => {
-//     console.log(item);
+// arr.forEach((item,i,all) => {
+//     console.log(i+all);
     
 // })
 
@@ -418,10 +422,12 @@ const jsuser = {
 //         ext : "cs"
 //     }
 // ]
-// mycoding.forEach((item) =>{
+// mycoding.forEach((item,i,all) =>{
 //     console.log(item.lang);
-    // console.log(item.ext);
-    // console.log(item);
+//     console.log(item.ext);
+//     console.log(item);
+//     console.log(all);
+    
     
 // })
 // function printer(item,iter,all) {
@@ -527,3 +533,10 @@ const myNum = [1,5,8,4,-2]
 
 // let ptp = shopping.reduce((acc,total) => acc + total.price,0)
 // console.log(ptp);
+
+// window.addEventListener('keydown', (event) => {
+//     if (event.code === 'KeyF' && event.ctrlKey) {
+//       console.log(k);
+      
+//     }
+//   });
