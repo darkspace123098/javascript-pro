@@ -47,6 +47,7 @@ const myArr = [1,2,3,4]
 let ptp = shopping.reduce((acc,total) => acc + total.price,0)
 // console.log(ptp);
 
-let a =10
-a*= 2
+let a=2
+a*= 10
+
 console.log(a);

@@ -75,8 +75,21 @@
 // let createToday = new Date(2024,9,19,8,0)
 // console.log(createToday.toTimeString());
 
-// let myDate = new Date("10-19-2024")
-// console.log(myDate.toLocaleString());
+
+
+
+
+
+
+
+
+
+
+/let myDate = new Date("10-19-2024")
+
+
+
+/console.log(myDate.toLocaleString());
 // console.log(myDate.toString());
 // console.log(myDate.toJSON());
 
