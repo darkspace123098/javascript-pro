@@ -38,4 +38,3 @@ let userObj = {
 }
 console.log(userObj);
 
-// https://noodlemagazine.com/video/
