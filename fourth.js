@@ -57,8 +57,54 @@
 // })
 // .finally(()=>(console.log("promise is either resolved or rejected")))
 
-const promiseFive = new Promise((resolve,reject)=>{
-    
-})
+// const promiseFive = new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         let error = true
+//         if (!error) {
+//             resolve({username:"stephan",email:"stephan@firecode.com"})
+//         }
+//         else{
+//             reject('error : went wrong')
+//         }
+//     },1000)
+// });
 
+// async function consumePromiseFive(){
+//     try{
+//         const response = await promiseFive
+//     console.log(response);
+//     }
+//     catch(error){
+//         console.log(error);
+        
+//     }
+    
+// }
+// consumePromiseFive()
+
+// async function getAllUser() {
+//     try{
+//     const response = await fetch('https://randomuser.me/api/')
+//     const data = await response.json()
+//     console.log(data);
+//     }catch(error){
+//         console.log("error");
+        
+//     }
+// }
+// getAllUser()
+
+async function getRandom(){
+    try{
+       const response = await fetch('https://randomuser.me/api')
+       const data = await response.json()
+       console.log(data.results[0].gender);
+    }
+    catch(error){
+        console.log("error Fetching");
+        
+    }
+}
+
+getRandom()
 
