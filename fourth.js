@@ -98,7 +98,7 @@ async function getRandom(){
     try{
        const response = await fetch('https://randomuser.me/api')
        const data = await response.json()
-       console.log(data.results[0].gender);
+       console.log(data.results[0].name.first);
     }
     catch(error){
         console.log("error Fetching");
