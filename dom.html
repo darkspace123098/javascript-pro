@@ -25,6 +25,30 @@
 
 </body>
 <script>
+    fetch("simple.json")
+            .then(function (data) {
+                return data.json()
+
+            })
+            .then(function (info) {
+                let div = document.createElement('h3')
+                div.style.background = "red"
+                div.style.color = "white"
+                for (let i = 0; i < info.length; i++) {
+                    div.innerText += info[0].username
+                    
+                }
+                
+                document.body.append(div)
+                
+               console.log(info[0].username);
+               
+
+            })
+            .catch(function (err) {
+                console.log("invalid fetching :" );
+
+            })
     // querySelector
     // console.log(document.querySelector("#head"));
     // console.log(document.querySelector('input[type="password"]'));

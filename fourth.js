@@ -94,6 +94,7 @@
 // }
 // getAllUser()
 
+/*
 async function getRandom(){
     try{
        const response = await fetch('https://randomuser.me/api')
@@ -107,4 +108,6 @@ async function getRandom(){
 }
 
 getRandom()
+
+*/
 
