@@ -34,15 +34,23 @@ const TAsupport = {
     fullTime : true,
     __proto__:Teacher
 }
-Teacher.__proto__ = user
+// Teacher.__proto__ = user
 
-console.log(Teacher.username);
-console.log(TAsupport.makeVideo);
+// console.log(Teacher.username);
+// console.log(TAsupport.makeVideo);
 
 
 
 
 // MODERN APPROACH
+let username = "irshadsfd gd"
+Object.setPrototypeOf(teachingSupport, Teacher)
+// console.log(teachingSupport.makeVideo);
 
-
+Object.prototype.trueLen = function(){
+            console.log(`True Length is ${this.trim().length}`)
+            
+}
+// "   hghhg ".trueLen()
+// username.trueLen()
 
