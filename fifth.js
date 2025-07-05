@@ -13,9 +13,36 @@ createProduct.prototype.fancy = function(){
 }
 
 let chai = new createProduct("chai",25)
-chai.increement()
-chai.fancy()
-console.log(chai.price);
-console.log(chai.name);
+// chai.increement()
+// chai.fancy()
+// console.log(chai.price);
+// console.log(chai.name);
+
+const user = {
+    username: "chian",
+    email:"jhon@chai.com"
+}
+const Teacher = {
+    makeVideo : true
+}
+const teachingSupport = {
+    isAvailable : false
+}
+
+const TAsupport = {
+    makeAssaignment : "js assignment",
+    fullTime : true,
+    __proto__:Teacher
+}
+Teacher.__proto__ = user
+
+console.log(Teacher.username);
+console.log(TAsupport.makeVideo);
+
+
+
+
+// MODERN APPROACH
+
 
 
