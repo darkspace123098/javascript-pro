@@ -7,12 +7,15 @@ createProduct.prototype.increement = function(){
     this.price++
 }
 
+createProduct.prototype.fancy = function(){
+     this.name +="Ab546"
+    
+}
 
 let chai = new createProduct("chai",25)
 chai.increement()
-// chai.increement()
-console.log(chai);
-console.log(createProduct.prototype);
-
+chai.fancy()
+console.log(chai.price);
+console.log(chai.name);
 
 

@@ -11,10 +11,17 @@
     <button onclick="cal()">CHECK</button>
 </body>
 <script>
+
+function timeChange(){
     let today = document.getElementById("mydate")
     let myDate = new Date();
     let ter = document.querySelector("#ter")
     today.innerHTML = `${myDate.toDateString()} AND SECONDS ${myDate.getSeconds()}` ;
+
+    
+    }
+    
+
 function cal() {
     
     function addpower(watt)
@@ -25,5 +32,7 @@ function cal() {
     }
     addpower(ter.value)
 }
+setInterval(timeChange,1000)
+timeChange()
 </script>
 </html>
