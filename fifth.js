@@ -1,3 +1,4 @@
+// prototype
 function createProduct(name,price){
     this.name = name
     this.price = price
@@ -18,6 +19,7 @@ let chai = new createProduct("chai",25)
 // console.log(chai.price);
 // console.log(chai.name);
 
+// js inheritance
 const user = {
     username: "chian",
     email:"jhon@chai.com"
@@ -53,4 +55,24 @@ Object.prototype.trueLen = function(){
 }
 // "   hghhg ".trueLen()
 // username.trueLen()
+
+
+
+// Call     -    explicit
+
+function setUserId(userId){
+    this.userId = userId
+    console.log("account created");
+    
+}
+
+function createAccount(userId,accNo,pin){
+    setUserId.call(this,userId)
+    this.accNo = accNo
+    this.pin = pin
+}
+
+let user1 = new createAccount("user12p9",100625852,124816)
+
+console.log(user1);
 
